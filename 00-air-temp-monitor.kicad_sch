@@ -2867,12 +2867,6 @@
 		(uuid "29476e4d-5aba-4f55-8946-b617e5cb4b2a")
 	)
 	(junction
-		(at 254 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "338ba2a1-100c-4ed8-af05-6a90f4079977")
-	)
-	(junction
 		(at 153.67 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2949,6 +2943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "930b35ff-ab78-4da1-8faa-f632532191eb")
+	)
+	(junction
+		(at 267.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe95b70-39a7-4279-bba4-b3dfc4d0af89")
 	)
 	(junction
 		(at 195.58 115.57)
@@ -3660,17 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 63.5) (xy 254 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e3be31-b981-4e6f-8df0-ddcfa29e74bc")
-	)
-	(wire
-		(pts
-			(xy 254 66.04) (xy 267.97 66.04)
+			(xy 254 66.04) (xy 257.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3717,6 +3707,16 @@
 			(type default)
 		)
 		(uuid "85304fe0-b527-4007-a4d8-1091f31ae15e")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 267.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eb8b77-c576-4f77-8a2e-bd2bfec18994")
 	)
 	(wire
 		(pts
@@ -4027,6 +4027,16 @@
 			(type default)
 		)
 		(uuid "e28819ee-cbc2-4512-af57-686419cc20d1")
+	)
+	(wire
+		(pts
+			(xy 267.97 60.96) (xy 267.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45494f6-dc9b-4d51-8123-c014a16ba420")
 	)
 	(wire
 		(pts
@@ -6149,6 +6159,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 267.97 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f90f18-6652-4aeb-9425-2f0f201e1ef5")
+		(property "Reference" "#PWR027"
+			(at 267.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 267.97 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b652043-f7e9-447f-9290-3396304a63a1")
+		)
+		(instances
+			(project "00-air-temp-monitor"
+				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 118.11 49.53 0)
 		(unit 1)
@@ -6656,99 +6744,6 @@
 			(project "00-air-temp-monitor"
 				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 267.97 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a84433e-49dc-4037-8328-f2818493e799")
-		(property "Reference" "C14"
-			(at 271.78 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 271.78 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 268.9352 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 267.97 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C2857965"
-			(at 267.97 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a473df31-9b04-4f86-bebf-5363bcb13f6e")
-		)
-		(pin "1"
-			(uuid "99d06d75-b5e4-4f26-8c6d-eb4adefa3f99")
-		)
-		(instances
-			(project "00-air-temp-monitor"
-				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7506,6 +7501,97 @@
 			(project "00-air-temp-monitor"
 				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a250b346-1106-4dd9-8ddf-3ed01e13f669")
+		(property "Reference" "R9"
+			(at 261.62 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 261.62 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C12246"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25ed98b7-7f48-4775-b30a-9871b4e38719")
+		)
+		(pin "2"
+			(uuid "32f6ebdf-9c8f-406b-8870-a3a61bef6069")
+		)
+		(instances
+			(project "00-air-temp-monitor"
+				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9122,6 +9208,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 267.97 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21a85e7-6428-48f6-9d0b-88efbb59fb6b")
+		(property "Reference" "C14"
+			(at 271.78 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 271.78 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 268.9352 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 267.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C408132"
+			(at 267.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6034e5b-2c0c-4b51-837b-15f17ed92468")
+		)
+		(pin "1"
+			(uuid "f36090da-343e-4da8-b159-8d72d4924ac0")
+		)
+		(instances
+			(project "00-air-temp-monitor"
+				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 119.38 116.84 0)
 		(unit 1)
@@ -9378,84 +9557,6 @@
 			(project "00-air-temp-monitor"
 				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 254 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f50bf550-2943-4db1-88c9-31926f1987e7")
-		(property "Reference" "#PWR027"
-			(at 254 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 254 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "141dca91-1820-47dd-b80d-2877e4972fbf")
-		)
-		(instances
-			(project "00-air-temp-monitor"
-				(path "/77a0b3b4-fa45-47c7-9e72-52985e1769a2"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
