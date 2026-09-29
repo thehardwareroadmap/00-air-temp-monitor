@@ -37,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "thr_Temperature:AHT20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -60,6 +60,39 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AHT20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB" "C2757850"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Temperature and humidity sensor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4332,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 154.6352 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4893,7 +4926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 64.4652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5219,7 +5252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 174.9552 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5390,7 +5423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thr_Switches:Tactile_switch_4.5x4.5x5.0"
 			(at 74.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5423,7 +5456,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C51978191"
+		(property "JLCPCB" "C39832245"
 			(at 80.01 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5561,7 +5594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 166.0652 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5643,7 +5676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "1.5pF"
 			(at 135.89 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 133.0452 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5720,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C1548"
+		(property "JLCPCB" "C285112"
 			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thr_Connector:BS-24-B4AK023"
 			(at 39.37 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -6088,7 +6121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "1.5pF"
 			(at 110.49 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6099,7 +6132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 107.6452 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6132,7 +6165,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C1548"
+		(property "JLCPCB" "C285112"
 			(at 106.68 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6270,7 +6303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 116.332 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 89.662 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 143.2052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6861,7 +6894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 186.3852 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7447,7 +7480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 101.6 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7538,7 +7571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 261.62 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -7776,7 +7809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ER_OLEDM0.91_1x-I2C"
+		(property "Value" "HS96L03W2C03"
 			(at 248.92 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +7820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+		(property "Footprint" "thr_Display:HS96L03W2C03"
 			(at 258.064 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7886,7 +7919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 94.9452 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7979,7 +8012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 116.332 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 202.692 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -8165,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 193.802 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 241.3 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8435,7 +8468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 129.2352 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thr_Temperature:AHT20"
 			(at 254 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8562,6 +8595,17 @@
 			)
 		)
 		(property "JLCPCB" "C2757850"
+			(at 254 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AHT20"
 			(at 254 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8631,7 +8675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -8724,7 +8768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 129.2352 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +8861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 254.9652 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9066,7 +9110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 143.2052 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9159,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 125.222 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -9241,7 +9285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 268.9352 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9322,7 +9366,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768kHz"
 			(at 119.38 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9332,7 +9376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
 			(at 119.38 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9409,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C3034396"
+		(property "JLCPCB" "C276418"
 			(at 119.38 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9503,7 +9547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 78.232 86.36 90)
 			(hide yes)
 			(show_name no)
