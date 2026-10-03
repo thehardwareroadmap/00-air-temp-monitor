@@ -1,0 +1,27 @@
+Drill report for 00-air-temp-monitor.kicad_pcb
+Created on 2026-10-03T22:47:17
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file '00-air-temp-monitor-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (10 holes))
+    T2  0.300mm  0.0118"  (147 holes))
+    T3  1.000mm  0.0394"  (8 holes))
+
+    Total plated holes count 165
+
+
+Drill file '00-air-temp-monitor-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  2.000mm  0.0787"  (4 holes))
+
+    Total unplated holes count 4
